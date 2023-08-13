@@ -1,0 +1,31 @@
+{"site-2": 
+        {"SRV_FL_global_model.pt": {"train_accuracy": 0.821630943582163, "val_accuracy": 0.8226}, 
+            "SRV_best_FL_global_model.pt": {"train_accuracy": 0.7878787878787878, "val_accuracy": 0.8246}, 
+            "site-4": {"train_accuracy": 0.724069967972407, "val_accuracy": 0.7604}, 
+            "site-1": {"train_accuracy": 0.7494456762749445, "val_accuracy": 0.7741}, 
+            "site-2": {"train_accuracy": 0.8679477703867948, "val_accuracy": 0.7461}, 
+            "site-5": {"train_accuracy": 0.578960335057896, "val_accuracy": 0.6907}
+        }, 
+"site-4": 
+        {"SRV_FL_global_model.pt": {"train_accuracy": 0.8838689644465145, "val_accuracy": 0.8226}, 
+            "SRV_best_FL_global_model.pt": {"train_accuracy": 0.8851110076075144, "val_accuracy": 0.8246}, 
+            "site-4": {"train_accuracy": 0.9378978419500078, "val_accuracy": 0.7604}, 
+            "site-1": {"train_accuracy": 0.8053097345132744, "val_accuracy": 0.7741}, 
+            "site-2": {"train_accuracy": 0.8095016301816488, "val_accuracy": 0.7461}, 
+            "site-5": {"train_accuracy": 0.5640428504890544, "val_accuracy": 0.6907}
+        }, 
+"site-5": {"SRV_FL_global_model.pt": {"train_accuracy": 0.9045474357111725, "val_accuracy": 0.8226}, 
+            "SRV_best_FL_global_model.pt": {"train_accuracy": 0.9039662937672527, "val_accuracy": 0.8246}, 
+            "site-4": {"train_accuracy": 0.7598430916751416, "val_accuracy": 0.7604}, 
+            "site-1": {"train_accuracy": 0.7575185238994624, "val_accuracy": 0.7741}, 
+            "site-2": {"train_accuracy": 0.688217347087026, "val_accuracy": 0.7461}, 
+            "site-5": {"train_accuracy": 0.9350573877669621, "val_accuracy": 0.6907}
+        }, 
+"site-1": {"SRV_FL_global_model.pt": {"train_accuracy": 0.9043184885290149, "val_accuracy": 0.8226}, 
+            "SRV_best_FL_global_model.pt": {"train_accuracy": 0.8986504723346829, "val_accuracy": 0.8246}, 
+            "site-4": {"train_accuracy": 0.8090418353576249, "val_accuracy": 0.7604}, 
+            "site-1": {"train_accuracy": 0.9369770580296896, "val_accuracy": 0.7741}, 
+            "site-2": {"train_accuracy": 0.7736842105263158, "val_accuracy": 0.7461}, 
+            "site-5": {"train_accuracy": 0.5585695006747639, "val_accuracy": 0.6907}
+        }
+}

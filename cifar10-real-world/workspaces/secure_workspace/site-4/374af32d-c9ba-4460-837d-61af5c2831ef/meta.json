@@ -1,0 +1,58 @@
+{
+    "name": "cifar10_fedavg_he_alpha1.0",
+    "resource_spec": {
+        "site-1": {
+            "num_of_gpus": 1,
+            "mem_per_gpu_in_GiB": 1
+        },
+        "site-2": {
+            "num_of_gpus": 1,
+            "mem_per_gpu_in_GiB": 1
+        },
+        "site-3": {
+            "num_of_gpus": 1,
+            "mem_per_gpu_in_GiB": 1
+        },
+        "site-4": {
+            "num_of_gpus": 1,
+            "mem_per_gpu_in_GiB": 1
+        },
+        "site-5": {
+            "num_of_gpus": 1,
+            "mem_per_gpu_in_GiB": 1
+        },
+        "site-6": {
+            "num_of_gpus": 1,
+            "mem_per_gpu_in_GiB": 1
+        },
+        "site-7": {
+            "num_of_gpus": 1,
+            "mem_per_gpu_in_GiB": 1
+        },
+        "site-8": {
+            "num_of_gpus": 1,
+            "mem_per_gpu_in_GiB": 1
+        }
+    },
+    "deploy_map": {
+        "cifar10_fedavg_he": [
+            "@ALL"
+        ]
+    },
+    "min_clients": 4,
+    "job_folder_name": "cifar10_fedavg_he",
+    "submitter_name": "admin@nvidia.com",
+    "submitter_org": "nvidia",
+    "submitter_role": "project_admin",
+    "job_id": "374af32d-c9ba-4460-837d-61af5c2831ef",
+    "submit_time": 1691855050.1501274,
+    "submit_time_iso": "2023-08-12T17:44:10.150127+02:00",
+    "start_time": "",
+    "duration": "N/A",
+    "status": "SUBMITTED",
+    "schedule_history": [
+        "2023-08-12 17:44:10: scheduled"
+    ],
+    "schedule_count": 1,
+    "last_schedule_time": 1691855050.3364334
+}

@@ -1,0 +1,69 @@
+2023-08-12 16:58:59,963 - worker_process - INFO - Worker_process started.
+2023-08-12 16:58:59,993 - HEModelEncryptor - INFO - Using HE model encryptor.
+2023-08-12 16:58:59,993 - HEModelEncryptor - INFO - client weights control: {}
+2023-08-12 16:58:59,993 - HEModelEncryptor - INFO - Encrypting all layers
+2023-08-12 16:58:59,994 - HEModelEncryptor - INFO - Using HE model encryptor.
+2023-08-12 16:58:59,994 - HEModelEncryptor - INFO - client weights control: {}
+2023-08-12 16:58:59,994 - HEModelEncryptor - INFO - Encrypting all layers
+2023-08-12 16:58:59,994 - HEModelDecryptor - INFO - Using HE model decryptor.
+2023-08-12 16:59:00,107 - Cell - INFO - site-4.44244f66-863d-46ff-916a-ae4bf82e6883: created backbone internal connector to tcp://localhost:35434 on parent
+2023-08-12 16:59:00,110 - Cell - INFO - site-4.44244f66-863d-46ff-916a-ae4bf82e6883: created backbone external connector to grpc://localhost:8102
+2023-08-12 16:59:00,110 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 ACTIVE tcp://localhost:35434] is starting
+2023-08-12 16:59:00,110 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 ACTIVE grpc://localhost:8102] is starting
+2023-08-12 16:59:00,111 - FederatedClient - INFO - Wait for client_runner to be created.
+2023-08-12 16:59:00,112 - FederatedClient - INFO - Got client_runner after 0.000993490219116211 seconds
+2023-08-12 16:59:00,112 - FederatedClient - INFO - Got the new primary SP: grpc://localhost:8102
+2023-08-12 16:59:00,165 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883]: client runner started
+2023-08-12 16:59:02,469 - Communicator - INFO - Received from secure_project server  (13970221 Bytes). getTask: train time: 0.2841939926147461 seconds
+2023-08-12 16:59:02,470 - FederatedClient - INFO - pull_task completed. Task name:train Status:True 
+2023-08-12 16:59:02,470 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883]: got task assignment: name=train, id=d6f5ae44-bc7a-492a-b677-fbcafa00071e
+2023-08-12 16:59:02,470 - HEModelDecryptor - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: Running decryption...
+2023-08-12 16:59:02,470 - HEModelDecryptor - WARNING - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: DXO does not contain PROCESSED_KEYS (do nothing). Note, this is normal in the first round of training, as the initial global model is not encrypted.
+2023-08-12 16:59:02,471 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: invoking task executor LearnerExecutor
+2023-08-12 16:59:02,471 - LearnerExecutor - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: Client trainer got task: train
+2023-08-12 16:59:02,471 - CIFAR10Learner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: Client site-4 initialized at 
+ /home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-4/startup/../44244f66-863d-46ff-916a-ae4bf82e6883/app_site-4 
+ with args: Namespace(workspace='/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-4/startup/..', startup='/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-4/startup/../startup', token='b61824b5-0758-42c0-9860-1537f66bf145', ssid='ebc6125d-0a56-4688-9b08-355fe9e4d61a', job_id='44244f66-863d-46ff-916a-ae4bf82e6883', client_name='site-4', sp_target='localhost:8102', parent_url='tcp://localhost:35434', fed_client='fed_client.json', set=['secure_train=true', 'uid=site-4', 'org=nvidia', 'config_folder=config', 'print_conf=True'], local_rank=0, train_config='config/config_train.json', client_config='config/config_fed_client.json', config_folder='config', env='config/environment.json')
+2023-08-12 16:59:04,350 - CIFAR10Learner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: IndexList Path: /tmp/cifar10_splits/cifar10_fedavg_he_alpha1.0_8d7cbf33-e4a5-4ae9-9235-cdaace4f85bc/site-4.npy
+2023-08-12 16:59:04,350 - CIFAR10Learner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: Loading subset index
+2023-08-12 16:59:04,351 - CIFAR10Learner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: Client subset size: 6441
+2023-08-12 16:59:05,097 - CIFAR10Learner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: Client identity: site-4
+2023-08-12 16:59:05,866 - ClientRunner - ERROR - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: RuntimeError from executor LearnerExecutor: RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED: Aborting the job!
+2023-08-12 16:59:05,867 - ClientRunner - ERROR - Traceback (most recent call last):
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/nvflare/private/fed/client/client_runner.py", line 254, in _process_task
+    reply = executor.execute(task.name, task.data, fl_ctx, self.task_abort_signal)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/nvflare/app_common/executors/learner_executor.py", line 85, in execute
+    return self.train(shareable, fl_ctx, abort_signal)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/nvflare/app_common/executors/learner_executor.py", line 98, in train
+    validate_result: Shareable = self.learner.validate(shareable, fl_ctx, abort_signal)
+  File "/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-4/local/custom/pt/learners/cifar10_learner.py", line 416, in validate
+    global_acc = self.local_valid(self.valid_loader, abort_signal, tb_id="val_acc_global_model", fl_ctx=fl_ctx)
+  File "/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-4/local/custom/pt/learners/cifar10_learner.py", line 367, in local_valid
+    outputs = self.model(inputs)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-4/local/custom/pt/networks/cifar10_nets.py", line 103, in forward
+    x = self.conv_layer(x)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED
+
+2023-08-12 16:59:05,868 - FederatedClient - INFO - Starting to push execute result.
+2023-08-12 16:59:05,875 - Communicator - INFO -  SubmitUpdate size: 648 Bytes. time: 0.0070836544036865234 seconds
+2023-08-12 16:59:05,876 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883, task_name=train, task_id=d6f5ae44-bc7a-492a-b677-fbcafa00071e]: result sent to server for task: name=train, id=d6f5ae44-bc7a-492a-b677-fbcafa00071e
+2023-08-12 16:59:06,168 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883, peer=secure_project, peer_run=44244f66-863d-46ff-916a-ae4bf82e6883]: received aux request from Server to end current RUN
+2023-08-12 16:59:06,169 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883]: ABORT (RUN) command received
+2023-08-12 16:59:06,169 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883]: ABORT (RUN) requests end run events sequence
+2023-08-12 16:59:06,170 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883]: ABOUT_TO_END_RUN fired
+2023-08-12 16:59:06,182 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883]: END_RUN fired
+2023-08-12 16:59:07,879 - ClientRunner - INFO - [identity=site-4, run=44244f66-863d-46ff-916a-ae4bf82e6883]: run method requests end run events sequence
+2023-08-12 16:59:07,884 - FederatedClient - INFO - Shutting down client run: site-4
+2023-08-12 16:59:09,576 - MPM - INFO - MPM: Good Bye!

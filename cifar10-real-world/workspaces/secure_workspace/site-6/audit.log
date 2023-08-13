@@ -1,0 +1,46 @@
+[E:fa51a126-4f78-42c2-b116-8192eb64911d][T:2023-07-24 23:01:04.694394][U:admin@nvidia.com][A:train.deploy]
+[E:14ff0885-a9e5-4634-8132-4dbd9b5a542e][T:2023-07-24 23:01:04.725366][U:][A:train.start_job]
+[E:383df2ea-22dd-446e-9c50-7a928d32fd0a][R:5262f4fb-9b23-4854-a273-e3a3d53aad87][T:2023-07-24 23:01:10.923005][J:9554360e-7eee-4359-8dc6-2a9c8c57d043][A:train#a1bc401e-7f9c-4854-b7e9-df489e4bfd0f]received task from server
+[E:c6fb0212-5951-45d2-a65f-6662d531679c][T:2023-07-24 23:01:10.923791][J:9554360e-7eee-4359-8dc6-2a9c8c57d043][A:train#a1bc401e-7f9c-4854-b7e9-df489e4bfd0f]invoked executor LearnerExecutor
+[E:c0f8cc07-15bb-4aab-8094-7e9b9ef052ca][T:2023-07-24 23:04:55.613674][U:][A:train.abort]
+[E:e6c4624f-d9b0-4160-940a-bb96cccb2464][R:eced231c-e562-48ed-8e07-e0802a81ad6d][T:2023-07-24 23:09:32.735561][U:admin@nvidia.com][A:train.check_status]
+[E:cd801b12-7853-4472-85ab-82e96d00bfd0][T:2023-08-12 16:57:45.178201][U:admin@nvidia.com][A:train.deploy]
+[E:ae864a8b-3c94-4db0-bbb0-a601770eac88][T:2023-08-12 16:57:45.225098][U:][A:train.start_job]
+[E:0cd94595-185b-4855-b55d-09453da04907][R:73f26258-ac17-4bd3-a84f-92d2926f2d05][T:2023-08-12 16:57:48.197760][U:admin@nvidia.com][A:train.check_status]
+[E:081b8769-90e4-44db-b4b3-7bea43140c12][R:a4ebb5e2-d5c1-4405-9f06-aa3b774113d6][T:2023-08-12 16:57:50.724660][J:3a54e229-13d6-4760-97ea-505dee56048e][A:train#228e0a34-44f1-4328-8e71-2404e017df84]received task from server
+[E:4b898ea9-ef5c-4a0d-8ab8-76fba9ae8bdb][T:2023-08-12 16:57:50.725204][J:3a54e229-13d6-4760-97ea-505dee56048e][A:train#228e0a34-44f1-4328-8e71-2404e017df84]invoked executor LearnerExecutor
+[E:4081cadd-2500-4a0f-bdee-4fa41ad5415d][R:a4ebb5e2-d5c1-4405-9f06-aa3b774113d6][T:2023-08-12 16:57:54.269737][J:3a54e229-13d6-4760-97ea-505dee56048e][A:train#228e0a34-44f1-4328-8e71-2404e017df84]submit result: EXECUTION_RESULT_ERROR
+[E:c6374207-4f1d-4f49-b9e7-6333436d6b18][R:297202c3-d4c4-4bf0-8064-12a45f372096][T:2023-08-12 16:57:59.013356][U:admin@nvidia.com][A:train.check_status]
+[E:1987c73e-72e4-40d2-beaa-2b1e129cf92e][T:2023-08-12 16:57:59.592348][U:][A:train.abort]
+[E:ad66c3e0-f354-460f-b86c-b69a40bb3cee][R:a7ef9a1e-6d0d-4acb-8767-1f169c97218d][T:2023-08-12 16:58:02.296403][U:admin@nvidia.com][A:train.check_status]
+[E:6ce9eba7-03c4-44a6-81d7-7153db36ac1d][R:6695f009-4a1f-4dda-a030-c268d6082577][T:2023-08-12 16:58:04.303561][U:admin@nvidia.com][A:train.check_status]
+[E:65762900-4f0f-4ef9-b790-ce7faaa29c2c][T:2023-08-12 16:58:56.555686][U:admin@nvidia.com][A:train.deploy]
+[E:ca4e6b0b-0987-4c7c-a985-464c21cab627][T:2023-08-12 16:58:56.601692][U:][A:train.start_job]
+[E:87be5e6e-242c-43c5-83f3-ffd011759900][R:f16c914e-0d2c-4571-8ed2-577808e09fdd][T:2023-08-12 16:59:02.219570][J:44244f66-863d-46ff-916a-ae4bf82e6883][A:train#3b9c857a-710b-41d3-9424-444b71bef9d0]received task from server
+[E:f2652736-5a48-4b69-906e-979a0e044f97][T:2023-08-12 16:59:02.220133][J:44244f66-863d-46ff-916a-ae4bf82e6883][A:train#3b9c857a-710b-41d3-9424-444b71bef9d0]invoked executor LearnerExecutor
+[E:5a00a2e2-1242-495f-94b5-2fdab8a26304][R:f16c914e-0d2c-4571-8ed2-577808e09fdd][T:2023-08-12 16:59:05.866768][J:44244f66-863d-46ff-916a-ae4bf82e6883][A:train#3b9c857a-710b-41d3-9424-444b71bef9d0]submit result: EXECUTION_RESULT_ERROR
+[E:7d5553e8-2933-4a19-97c9-b9cfe2987369][T:2023-08-12 16:59:11.716836][U:][A:train.abort]
+[E:2ac1961f-6759-4d73-9236-343b2beedac4][T:2023-08-12 16:59:46.905316][U:admin@nvidia.com][A:train.deploy]
+[E:124953b6-0080-4923-9f15-0fb42762ef63][T:2023-08-12 16:59:46.955808][U:][A:train.start_job]
+[E:b8f9aff9-81cf-421b-873e-2569d84b4c12][R:34e370bb-5b7e-4f42-9211-2d511995ed09][T:2023-08-12 16:59:56.047255][J:9d7a45ba-e3df-4af1-b96b-d613e96fae8d][A:train#7c60dd12-3398-4cac-8ad4-b5a147060ec1]received task from server
+[E:10873687-0ecf-4042-8801-062fd85c9011][T:2023-08-12 16:59:56.047651][J:9d7a45ba-e3df-4af1-b96b-d613e96fae8d][A:train#7c60dd12-3398-4cac-8ad4-b5a147060ec1]invoked executor LearnerExecutor
+[E:169e362c-b4dc-4281-9269-29d179ff034f][R:34e370bb-5b7e-4f42-9211-2d511995ed09][T:2023-08-12 16:59:58.708784][J:9d7a45ba-e3df-4af1-b96b-d613e96fae8d][A:train#7c60dd12-3398-4cac-8ad4-b5a147060ec1]submit result: EXECUTION_RESULT_ERROR
+[E:0d3ca4b1-df01-4383-8239-faa8e451a83f][T:2023-08-12 17:00:01.781385][U:][A:train.abort]
+[E:688bcb1a-9ebb-47ca-b3d4-d6c88acaf513][R:382d97f1-4964-466a-8bb5-f6ea2ef52fe6][T:2023-08-12 17:05:39.582860][U:admin@nvidia.com][A:train.check_status]
+[E:943d69c8-45a6-4820-a503-67cb379c8d72][T:2023-08-12 17:05:56.924128][U:admin@nvidia.com][A:train.deploy]
+[E:a2993c18-bb09-4663-83ce-045548e9715c][T:2023-08-12 17:05:56.952932][U:][A:train.start_job]
+[E:49efb69a-c131-4ae9-9a03-3621fa39073f][R:d5f9e8bc-a01d-4e6f-88ec-3d2f48a4142d][T:2023-08-12 17:06:12.564655][J:5bcee9f9-b31c-4aac-b7b3-e442767f39f2][A:train#2a6cf1f3-a11b-4a87-8815-db7e5cfec0c5]received task from server
+[E:f2992ffc-843b-4c78-b0f6-3d70784c1369][T:2023-08-12 17:06:12.565327][J:5bcee9f9-b31c-4aac-b7b3-e442767f39f2][A:train#2a6cf1f3-a11b-4a87-8815-db7e5cfec0c5]invoked executor LearnerExecutor
+[E:ace639d6-4b65-44e9-8e30-bf9b43a07b85][R:d5f9e8bc-a01d-4e6f-88ec-3d2f48a4142d][T:2023-08-12 17:06:18.710213][J:5bcee9f9-b31c-4aac-b7b3-e442767f39f2][A:train#2a6cf1f3-a11b-4a87-8815-db7e5cfec0c5]submit result: EXECUTION_RESULT_ERROR
+[E:50aaf4e6-4369-41f9-9941-a0436648c2cc][T:2023-08-12 17:06:24.875800][U:][A:train.abort]
+[E:a722ef1f-33e6-40e2-8034-94faebb2c693][R:5fcbdded-2551-43dc-aa06-cfdca69a8bf1][T:2023-08-12 17:07:17.563016][U:admin@nvidia.com][A:train.check_status]
+[E:a63ba412-ecf6-4a29-a119-4a15fe1f7c58][R:50088b16-057c-40bb-9123-cf1c76e0bc2a][T:2023-08-12 17:07:58.587776][U:admin@nvidia.com][A:train.check_status]
+[E:ccd84162-8d10-4cc9-b005-5892a65e6927][R:d8ed4cc0-93cc-473f-9fac-56201c36f085][T:2023-08-12 17:08:02.092881][U:admin@nvidia.com][A:train.check_status]
+[E:b74899f1-3bc1-4a1d-9f6e-d21a75236a17][R:c9560bab-9812-4a50-8d87-bd990ed6c6b6][T:2023-08-12 17:08:03.720729][U:admin@nvidia.com][A:train.check_status]
+[E:7bc70025-49f9-424c-b763-c6d56a939290][R:dec814c5-f19f-4210-b9d7-a637d1d0a4a4][T:2023-08-12 17:08:46.845010][U:admin@nvidia.com][A:train.check_status]
+[E:d57a002f-5587-43f6-98b4-32ee649b6b24][T:2023-08-12 17:09:36.563448][U:admin@nvidia.com][A:train.deploy]
+[E:987d199f-ade2-40f0-8901-3e6be84054b3][T:2023-08-12 17:09:36.590537][U:][A:train.start_job]
+[E:17e5e1db-d9d3-4453-98b5-a0ae7396ae1f][R:59cec1fa-2d13-4684-a699-a0de78f05571][T:2023-08-12 17:09:42.118671][J:054c9489-bf6c-447b-a6ed-e593dad509a1][A:train#d653c513-8087-4173-b37a-6b880e01e2e2]received task from server
+[E:bc2c43e3-c68a-4b43-afbc-73eb8ab40d0d][T:2023-08-12 17:09:42.118949][J:054c9489-bf6c-447b-a6ed-e593dad509a1][A:train#d653c513-8087-4173-b37a-6b880e01e2e2]invoked executor LearnerExecutor
+[E:32e7fa27-e254-4306-aed5-19553fcfeca1][R:59cec1fa-2d13-4684-a699-a0de78f05571][T:2023-08-12 17:09:46.310345][J:054c9489-bf6c-447b-a6ed-e593dad509a1][A:train#d653c513-8087-4173-b37a-6b880e01e2e2]submit result: EXECUTION_RESULT_ERROR
+[E:028f901a-b11c-4528-a6d0-e85c5a5631b1][T:2023-08-12 17:09:52.112338][U:][A:train.abort]

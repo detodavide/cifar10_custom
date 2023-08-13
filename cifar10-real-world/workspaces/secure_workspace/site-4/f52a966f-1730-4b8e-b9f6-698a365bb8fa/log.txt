@@ -1,0 +1,44 @@
+2023-08-12 17:40:36,085 - worker_process - INFO - Worker_process started.
+2023-08-12 17:40:36,105 - HEModelEncryptor - INFO - Using HE model encryptor.
+2023-08-12 17:40:36,105 - HEModelEncryptor - INFO - client weights control: {}
+2023-08-12 17:40:36,105 - HEModelEncryptor - INFO - Encrypting all layers
+2023-08-12 17:40:36,105 - HEModelEncryptor - INFO - Using HE model encryptor.
+2023-08-12 17:40:36,105 - HEModelEncryptor - INFO - client weights control: {}
+2023-08-12 17:40:36,105 - HEModelEncryptor - INFO - Encrypting all layers
+2023-08-12 17:40:36,106 - HEModelDecryptor - INFO - Using HE model decryptor.
+2023-08-12 17:40:36,201 - Cell - INFO - site-4.f52a966f-1730-4b8e-b9f6-698a365bb8fa: created backbone internal connector to tcp://localhost:18007 on parent
+2023-08-12 17:40:36,206 - Cell - INFO - site-4.f52a966f-1730-4b8e-b9f6-698a365bb8fa: created backbone external connector to grpc://localhost:8102
+2023-08-12 17:40:36,206 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 ACTIVE tcp://localhost:18007] is starting
+2023-08-12 17:40:36,207 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 ACTIVE grpc://localhost:8102] is starting
+2023-08-12 17:40:36,207 - FederatedClient - INFO - Wait for client_runner to be created.
+2023-08-12 17:40:36,208 - FederatedClient - INFO - Got client_runner after 0.0005447864532470703 seconds
+2023-08-12 17:40:36,208 - FederatedClient - INFO - Got the new primary SP: grpc://localhost:8102
+2023-08-12 17:40:36,268 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa]: client runner started
+2023-08-12 17:40:38,410 - Communicator - INFO - Received from secure_project server  (13970221 Bytes). getTask: train time: 0.12033987045288086 seconds
+2023-08-12 17:40:38,411 - FederatedClient - INFO - pull_task completed. Task name:train Status:True 
+2023-08-12 17:40:38,411 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa]: got task assignment: name=train, id=ac832e36-4cd9-45f6-8e6f-a416613b3438
+2023-08-12 17:40:38,411 - HEModelDecryptor - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: Running decryption...
+2023-08-12 17:40:38,411 - HEModelDecryptor - WARNING - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: DXO does not contain PROCESSED_KEYS (do nothing). Note, this is normal in the first round of training, as the initial global model is not encrypted.
+2023-08-12 17:40:38,412 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: invoking task executor LearnerExecutor
+2023-08-12 17:40:38,412 - LearnerExecutor - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: Client trainer got task: train
+2023-08-12 17:40:38,412 - CIFAR10Learner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: Client site-4 initialized at 
+ /home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-4/startup/../f52a966f-1730-4b8e-b9f6-698a365bb8fa/app_site-4 
+ with args: Namespace(workspace='/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-4/startup/..', startup='/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-4/startup/../startup', token='ae69355c-0495-4367-b246-fe7903121661', ssid='ebc6125d-0a56-4688-9b08-355fe9e4d61a', job_id='f52a966f-1730-4b8e-b9f6-698a365bb8fa', client_name='site-4', sp_target='localhost:8102', parent_url='tcp://localhost:18007', fed_client='fed_client.json', set=['secure_train=true', 'uid=site-4', 'org=nvidia', 'config_folder=config', 'print_conf=True'], local_rank=0, train_config='config/config_train.json', client_config='config/config_fed_client.json', config_folder='config', env='config/environment.json')
+2023-08-12 17:40:39,971 - CIFAR10Learner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: IndexList Path: /tmp/cifar10_splits/cifar10_fedavg_he_alpha1.0_8d7cbf33-e4a5-4ae9-9235-cdaace4f85bc/site-4.npy
+2023-08-12 17:40:39,972 - CIFAR10Learner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: Loading subset index
+2023-08-12 17:40:39,972 - CIFAR10Learner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: Client subset size: 6441
+2023-08-12 17:40:40,641 - CIFAR10Learner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: Client identity: site-4
+2023-08-12 17:40:42,312 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa]: received aux request from Server to end current RUN
+2023-08-12 17:40:42,313 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa]: ABORT (RUN) command received
+2023-08-12 17:40:42,313 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: triggered task_abort_signal to stop task 'train'
+2023-08-12 17:40:42,313 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: fired ABORT_TASK event to abort current task train
+2023-08-12 17:40:42,313 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa]: ABORT (RUN) requests end run events sequence
+2023-08-12 17:40:42,313 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa]: ABOUT_TO_END_RUN fired
+2023-08-12 17:40:42,315 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa]: END_RUN fired
+2023-08-12 17:40:42,317 - FederatedClient - INFO - Starting to push execute result.
+2023-08-12 17:40:42,319 - Communicator - INFO -  SubmitUpdate size: 638 Bytes. time: 0.0021767616271972656 seconds
+2023-08-12 17:40:42,320 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: result sent to server for task: name=train, id=ac832e36-4cd9-45f6-8e6f-a416613b3438
+2023-08-12 17:40:42,320 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, peer=secure_project, peer_run=f52a966f-1730-4b8e-b9f6-698a365bb8fa, task_name=train, task_id=ac832e36-4cd9-45f6-8e6f-a416613b3438]: run abort signal received
+2023-08-12 17:40:42,320 - ClientRunner - INFO - [identity=site-4, run=f52a966f-1730-4b8e-b9f6-698a365bb8fa]: run method requests end run events sequence
+2023-08-12 17:40:42,323 - FederatedClient - INFO - Shutting down client run: site-4
+2023-08-12 17:40:44,697 - MPM - INFO - MPM: Good Bye!

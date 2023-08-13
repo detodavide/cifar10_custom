@@ -1,0 +1,64 @@
+2023-08-12 17:36:01,786 - worker_process - INFO - Worker_process started.
+2023-08-12 17:36:01,803 - HEModelEncryptor - INFO - Using HE model encryptor.
+2023-08-12 17:36:01,803 - HEModelEncryptor - INFO - client weights control: {}
+2023-08-12 17:36:01,803 - HEModelEncryptor - INFO - Encrypting all layers
+2023-08-12 17:36:01,803 - HEModelEncryptor - INFO - Using HE model encryptor.
+2023-08-12 17:36:01,803 - HEModelEncryptor - INFO - client weights control: {}
+2023-08-12 17:36:01,803 - HEModelEncryptor - INFO - Encrypting all layers
+2023-08-12 17:36:01,803 - HEModelDecryptor - INFO - Using HE model decryptor.
+2023-08-12 17:36:01,875 - Cell - INFO - site-5.f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224: created backbone internal connector to tcp://localhost:49634 on parent
+2023-08-12 17:36:01,879 - Cell - INFO - site-5.f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224: created backbone external connector to grpc://localhost:8102
+2023-08-12 17:36:01,879 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 ACTIVE tcp://localhost:49634] is starting
+2023-08-12 17:36:01,879 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 ACTIVE grpc://localhost:8102] is starting
+2023-08-12 17:36:01,880 - FederatedClient - INFO - Wait for client_runner to be created.
+2023-08-12 17:36:01,880 - FederatedClient - INFO - Got client_runner after 0.0002067089080810547 seconds
+2023-08-12 17:36:01,880 - FederatedClient - INFO - Got the new primary SP: grpc://localhost:8102
+2023-08-12 17:36:01,934 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224]: client runner started
+2023-08-12 17:36:04,063 - Communicator - INFO - Received from secure_project server  (13970221 Bytes). getTask: train time: 0.10753917694091797 seconds
+2023-08-12 17:36:04,064 - FederatedClient - INFO - pull_task completed. Task name:train Status:True 
+2023-08-12 17:36:04,064 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224]: got task assignment: name=train, id=086b008b-5cbe-4532-8034-d9347f8e0dd2
+2023-08-12 17:36:04,064 - HEModelDecryptor - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Running decryption...
+2023-08-12 17:36:04,065 - HEModelDecryptor - WARNING - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: DXO does not contain PROCESSED_KEYS (do nothing). Note, this is normal in the first round of training, as the initial global model is not encrypted.
+2023-08-12 17:36:04,065 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: invoking task executor LearnerExecutor
+2023-08-12 17:36:04,065 - LearnerExecutor - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Client trainer got task: train
+2023-08-12 17:36:04,065 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Client site-5 initialized at 
+ /home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-5/startup/../f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224/app_site-5 
+ with args: Namespace(workspace='/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-5/startup/..', startup='/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-5/startup/../startup', token='52b9e4b2-3ce0-4c65-8d9b-a8a1b11704c0', ssid='ebc6125d-0a56-4688-9b08-355fe9e4d61a', job_id='f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224', client_name='site-5', sp_target='localhost:8102', parent_url='tcp://localhost:49634', fed_client='fed_client.json', set=['secure_train=true', 'uid=site-5', 'org=nvidia', 'config_folder=config', 'print_conf=True'], local_rank=0, train_config='config/config_train.json', client_config='config/config_fed_client.json', config_folder='config', env='config/environment.json')
+2023-08-12 17:36:05,657 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: IndexList Path: /tmp/cifar10_splits/cifar10_fedavg_he_alpha1.0_8d7cbf33-e4a5-4ae9-9235-cdaace4f85bc/site-5.npy
+2023-08-12 17:36:05,657 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Loading subset index
+2023-08-12 17:36:05,658 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Client subset size: 6883
+2023-08-12 17:36:06,314 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Client identity: site-5
+2023-08-12 17:36:09,587 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: val_acc_global_model (global_model): 0.1
+2023-08-12 17:36:09,587 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Current/Total Round: 1/10
+2023-08-12 17:36:09,587 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Client identity: site-5
+2023-08-12 17:36:09,592 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Local steps per epoch: 108
+2023-08-12 17:36:09,594 - CIFAR10Learner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: Local epoch site-5: 1/4 (lr=0.01)
+2023-08-12 17:36:09,632 - ClientRunner - ERROR - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: RuntimeError from executor LearnerExecutor: OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 7.78 GiB total capacity; 116.20 MiB already allocated; 35.88 MiB free; 126.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF: Aborting the job!
+2023-08-12 17:36:09,633 - ClientRunner - ERROR - Traceback (most recent call last):
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/nvflare/private/fed/client/client_runner.py", line 254, in _process_task
+    reply = executor.execute(task.name, task.data, fl_ctx, self.task_abort_signal)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/nvflare/app_common/executors/learner_executor.py", line 85, in execute
+    return self.train(shareable, fl_ctx, abort_signal)
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/nvflare/app_common/executors/learner_executor.py", line 100, in train
+    train_result = self.learner.train(shareable, fl_ctx, abort_signal)
+  File "/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-5/local/custom/pt/learners/cifar10_learner.py", line 293, in train
+    self.local_train(
+  File "/home/deto/Desktop/Projects/cifar10_v1/cifar10-real-world/workspaces/secure_workspace/site-5/local/custom/pt/learners/cifar10_learner.py", line 230, in local_train
+    loss.backward()
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/deto/Desktop/Projects/environments/nvflare-venv/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 7.78 GiB total capacity; 116.20 MiB already allocated; 35.88 MiB free; 126.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2023-08-12 17:36:09,634 - FederatedClient - INFO - Starting to push execute result.
+2023-08-12 17:36:09,640 - Communicator - INFO -  SubmitUpdate size: 648 Bytes. time: 0.005153179168701172 seconds
+2023-08-12 17:36:09,640 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, task_name=train, task_id=086b008b-5cbe-4532-8034-d9347f8e0dd2]: result sent to server for task: name=train, id=086b008b-5cbe-4532-8034-d9347f8e0dd2
+2023-08-12 17:36:10,018 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, peer=secure_project, peer_run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224]: received aux request from Server to end current RUN
+2023-08-12 17:36:10,018 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224]: ABORT (RUN) command received
+2023-08-12 17:36:10,019 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224]: ABORT (RUN) requests end run events sequence
+2023-08-12 17:36:10,019 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224]: ABOUT_TO_END_RUN fired
+2023-08-12 17:36:10,021 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224]: END_RUN fired
+2023-08-12 17:36:11,643 - ClientRunner - INFO - [identity=site-5, run=f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224]: run method requests end run events sequence
+2023-08-12 17:36:11,657 - FederatedClient - INFO - Shutting down client run: site-5
+2023-08-12 17:36:13,401 - MPM - INFO - MPM: Good Bye!

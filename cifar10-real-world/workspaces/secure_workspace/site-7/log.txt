@@ -1,0 +1,39 @@
+2023-07-24 22:58:01,752 - Cell - INFO - site-7: created backbone external connector to grpc://localhost:8102
+2023-07-24 22:58:01,752 - ConnectorManager - INFO - 17005: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-07-24 22:58:01,753 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:22093] is starting
+2023-07-24 22:58:02,253 - Cell - INFO - site-7: created backbone internal listener for tcp://localhost:22093
+2023-07-24 22:58:02,253 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 ACTIVE grpc://localhost:8102] is starting
+2023-07-24 22:58:02,254 - FederatedClient - INFO - Wait for engine to be created.
+2023-07-24 22:58:02,747 - FederatedClient - INFO - Successfully registered client:site-7 for project secure_project. Token:324ca21c-4d8d-47e6-b3c8-c457e28cd7f8 SSID:ebc6125d-0a56-4688-9b08-355fe9e4d61a
+2023-07-24 22:58:02,749 - FederatedClient - INFO - Got engine after 0.4953007698059082 seconds
+2023-07-24 22:58:02,749 - FederatedClient - INFO - Got the new primary SP: grpc://localhost:8102
+2023-07-24 23:01:04,770 - ClientEngine - INFO - Starting client app. rank: 0
+2023-07-24 23:01:04,801 - ProcessExecutor - INFO - Worker child process ID: 20427
+2023-07-24 23:01:04,801 - ProcessExecutor - INFO - run (9554360e-7eee-4359-8dc6-2a9c8c57d043): waiting for child worker process to finish.
+2023-07-24 23:02:17,304 - Cell - ERROR - [ME=site-7 O=? D=server F=? T=? CH=task TP=heart_beat] timeout on Request 5ea50c7a-31a4-49fc-a8a1-a9cac8f72d39 for ['heart_beat'] after 30.0 secs
+2023-07-24 23:03:02,421 - ProcessExecutor - INFO - run (9554360e-7eee-4359-8dc6-2a9c8c57d043): child worker process finished.
+2023-08-12 16:57:07,094 - Cell - INFO - site-7: created backbone external connector to grpc://localhost:8102
+2023-08-12 16:57:07,094 - ConnectorManager - INFO - 111416: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-12 16:57:07,096 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:16093] is starting
+2023-08-12 16:57:07,597 - Cell - INFO - site-7: created backbone internal listener for tcp://localhost:16093
+2023-08-12 16:57:07,597 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 ACTIVE grpc://localhost:8102] is starting
+2023-08-12 16:57:07,598 - FederatedClient - INFO - Wait for engine to be created.
+2023-08-12 16:57:08,095 - FederatedClient - INFO - Successfully registered client:site-7 for project secure_project. Token:48cd028d-d1af-4a49-b75d-8ca8a7e72492 SSID:ebc6125d-0a56-4688-9b08-355fe9e4d61a
+2023-08-12 16:57:08,103 - FederatedClient - INFO - Got engine after 0.5046439170837402 seconds
+2023-08-12 16:57:08,104 - FederatedClient - INFO - Got the new primary SP: grpc://localhost:8102
+2023-08-12 16:57:45,264 - ClientEngine - INFO - Starting client app. rank: 0
+2023-08-12 16:57:45,290 - ProcessExecutor - INFO - Worker child process ID: 112566
+2023-08-12 16:57:45,291 - ProcessExecutor - INFO - run (3a54e229-13d6-4760-97ea-505dee56048e): waiting for child worker process to finish.
+2023-08-12 16:57:59,235 - ProcessExecutor - INFO - run (3a54e229-13d6-4760-97ea-505dee56048e): child worker process finished with RC 0
+2023-08-12 16:58:38,229 - Communicator - INFO - Client: site-7 has sent 10 heartbeats.
+2023-08-12 16:58:56,638 - ClientEngine - INFO - Starting client app. rank: 0
+2023-08-12 16:58:56,663 - ProcessExecutor - INFO - Worker child process ID: 117946
+2023-08-12 16:58:56,664 - ProcessExecutor - INFO - run (44244f66-863d-46ff-916a-ae4bf82e6883): waiting for child worker process to finish.
+2023-08-12 16:59:10,710 - ProcessExecutor - INFO - run (44244f66-863d-46ff-916a-ae4bf82e6883): child worker process finished with RC 0
+2023-08-12 16:59:46,994 - ClientEngine - INFO - Starting client app. rank: 0
+2023-08-12 16:59:47,019 - ProcessExecutor - INFO - Worker child process ID: 123281
+2023-08-12 16:59:47,019 - ProcessExecutor - INFO - run (9d7a45ba-e3df-4af1-b96b-d613e96fae8d): waiting for child worker process to finish.
+2023-08-12 17:00:03,709 - ProcessExecutor - INFO - run (9d7a45ba-e3df-4af1-b96b-d613e96fae8d): child worker process finished with RC 0
+2023-08-12 17:00:03,735 - ProcessExecutor - INFO - run (9d7a45ba-e3df-4af1-b96b-d613e96fae8d): child worker process terminated
+2023-08-12 17:00:03,736 - ProcessExecutor - INFO - Client worker process is terminated.
+2023-08-12 17:00:18,357 - Communicator - INFO - Client: site-7 has sent 20 heartbeats.

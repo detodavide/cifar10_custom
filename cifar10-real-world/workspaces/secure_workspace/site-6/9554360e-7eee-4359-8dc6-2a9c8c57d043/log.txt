@@ -1,0 +1,28 @@
+2023-07-24 23:01:08,132 - worker_process - INFO - Worker_process started.
+2023-07-24 23:01:08,150 - HEModelEncryptor - INFO - Using HE model encryptor.
+2023-07-24 23:01:08,150 - HEModelEncryptor - INFO - client weights control: {}
+2023-07-24 23:01:08,150 - HEModelEncryptor - INFO - Encrypting all layers
+2023-07-24 23:01:08,150 - HEModelEncryptor - INFO - Using HE model encryptor.
+2023-07-24 23:01:08,150 - HEModelEncryptor - INFO - client weights control: {}
+2023-07-24 23:01:08,150 - HEModelEncryptor - INFO - Encrypting all layers
+2023-07-24 23:01:08,151 - HEModelDecryptor - INFO - Using HE model decryptor.
+2023-07-24 23:01:08,225 - Cell - INFO - site-6.9554360e-7eee-4359-8dc6-2a9c8c57d043: created backbone internal connector to tcp://localhost:24443 on parent
+2023-07-24 23:01:08,226 - Cell - INFO - site-6.9554360e-7eee-4359-8dc6-2a9c8c57d043: created backbone external connector to grpc://localhost:8102
+2023-07-24 23:01:08,227 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 ACTIVE tcp://localhost:24443] is starting
+2023-07-24 23:01:08,227 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 ACTIVE grpc://localhost:8102] is starting
+2023-07-24 23:01:08,227 - FederatedClient - INFO - Wait for client_runner to be created.
+2023-07-24 23:01:08,228 - FederatedClient - INFO - Got client_runner after 0.0006837844848632812 seconds
+2023-07-24 23:01:08,228 - FederatedClient - INFO - Got the new primary SP: grpc://localhost:8102
+2023-07-24 23:01:08,268 - ClientRunner - INFO - [identity=site-6, run=9554360e-7eee-4359-8dc6-2a9c8c57d043]: client runner started
+2023-07-24 23:01:08,271 - Communicator - WARNING - Failed to get_task from secure_project server. Will try it again.
+2023-07-24 23:01:08,272 - FederatedClient - INFO - pull_task completed. Task name:None Status:False 
+2023-07-24 23:01:10,921 - Communicator - INFO - Received from secure_project server  (13970221 Bytes). getTask: train time: 0.10353255271911621 seconds
+2023-07-24 23:01:10,922 - FederatedClient - INFO - pull_task completed. Task name:train Status:True 
+2023-07-24 23:01:10,922 - ClientRunner - INFO - [identity=site-6, run=9554360e-7eee-4359-8dc6-2a9c8c57d043, peer=secure_project, peer_run=9554360e-7eee-4359-8dc6-2a9c8c57d043]: got task assignment: name=train, id=a1bc401e-7f9c-4854-b7e9-df489e4bfd0f
+2023-07-24 23:01:10,923 - HEModelDecryptor - INFO - [identity=site-6, run=9554360e-7eee-4359-8dc6-2a9c8c57d043, peer=secure_project, peer_run=9554360e-7eee-4359-8dc6-2a9c8c57d043, task_name=train, task_id=a1bc401e-7f9c-4854-b7e9-df489e4bfd0f]: Running decryption...
+2023-07-24 23:01:10,923 - HEModelDecryptor - WARNING - [identity=site-6, run=9554360e-7eee-4359-8dc6-2a9c8c57d043, peer=secure_project, peer_run=9554360e-7eee-4359-8dc6-2a9c8c57d043, task_name=train, task_id=a1bc401e-7f9c-4854-b7e9-df489e4bfd0f]: DXO does not contain PROCESSED_KEYS (do nothing). Note, this is normal in the first round of training, as the initial global model is not encrypted.
+2023-07-24 23:01:10,923 - ClientRunner - INFO - [identity=site-6, run=9554360e-7eee-4359-8dc6-2a9c8c57d043, peer=secure_project, peer_run=9554360e-7eee-4359-8dc6-2a9c8c57d043, task_name=train, task_id=a1bc401e-7f9c-4854-b7e9-df489e4bfd0f]: invoking task executor LearnerExecutor
+2023-07-24 23:01:10,923 - LearnerExecutor - INFO - [identity=site-6, run=9554360e-7eee-4359-8dc6-2a9c8c57d043, peer=secure_project, peer_run=9554360e-7eee-4359-8dc6-2a9c8c57d043, task_name=train, task_id=a1bc401e-7f9c-4854-b7e9-df489e4bfd0f]: Client trainer got task: train
+2023-07-24 23:01:10,924 - CIFAR10Learner - INFO - [identity=site-6, run=9554360e-7eee-4359-8dc6-2a9c8c57d043, peer=secure_project, peer_run=9554360e-7eee-4359-8dc6-2a9c8c57d043, task_name=train, task_id=a1bc401e-7f9c-4854-b7e9-df489e4bfd0f]: Client site-6 initialized at 
+ /home/deto/Desktop/Projects/temp1/NVFlare/examples/advanced/cifar10/cifar10-real-world/workspaces/secure_workspace/site-6/startup/../9554360e-7eee-4359-8dc6-2a9c8c57d043/app_site-6 
+ with args: Namespace(workspace='/home/deto/Desktop/Projects/temp1/NVFlare/examples/advanced/cifar10/cifar10-real-world/workspaces/secure_workspace/site-6/startup/..', startup='/home/deto/Desktop/Projects/temp1/NVFlare/examples/advanced/cifar10/cifar10-real-world/workspaces/secure_workspace/site-6/startup/../startup', token='89f4f4a8-72f2-4e54-8e1a-11d56271ed09', ssid='ebc6125d-0a56-4688-9b08-355fe9e4d61a', job_id='9554360e-7eee-4359-8dc6-2a9c8c57d043', client_name='site-6', sp_target='localhost:8102', parent_url='tcp://localhost:24443', fed_client='fed_client.json', set=['secure_train=true', 'uid=site-6', 'org=nvidia', 'config_folder=config', 'print_conf=True'], local_rank=0, train_config='config/config_train.json', client_config='config/config_fed_client.json', config_folder='config', env='config/environment.json')

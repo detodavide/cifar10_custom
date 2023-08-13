@@ -1,0 +1,290 @@
+2023-07-24 22:57:50,876 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-07-24 22:57:50,883 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-07-24 22:57:50,883 - ConnectorManager - INFO - 16820: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-07-24 22:57:50,884 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:58644] is starting
+2023-07-24 22:57:51,385 - Cell - INFO - server: created backbone internal listener for tcp://localhost:58644
+2023-07-24 22:57:51,386 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-07-24 22:57:51,392 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-07-24 22:57:51,402 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-07-24 22:57:51,405 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-07-24 22:57:51,405 - root - INFO - Server started
+2023-07-24 22:58:02,643 - ClientManager - INFO - Client: New client site-3@192.168.1.6 joined. Sent token: b2ecb333-78a8-43bf-94aa-1632d0698438.  Total clients: 1
+2023-07-24 22:58:02,672 - ClientManager - INFO - Client: New client site-2@192.168.1.6 joined. Sent token: 24153180-8b2f-4dbc-8db6-903b37c45c42.  Total clients: 2
+2023-07-24 22:58:02,675 - ClientManager - INFO - Client: New client site-6@192.168.1.6 joined. Sent token: 89f4f4a8-72f2-4e54-8e1a-11d56271ed09.  Total clients: 3
+2023-07-24 22:58:02,709 - ClientManager - INFO - Client: New client site-4@192.168.1.6 joined. Sent token: 41e122de-a8b9-4cea-a5ca-07fb58d996c5.  Total clients: 4
+2023-07-24 22:58:02,711 - ClientManager - INFO - Client: New client site-8@192.168.1.6 joined. Sent token: 88e104bc-5e3a-403c-89d3-2e5d022483a7.  Total clients: 5
+2023-07-24 22:58:02,714 - ClientManager - INFO - Client: New client site-5@192.168.1.6 joined. Sent token: 4e1a3ffc-f9c8-45b6-a4ab-2e6fb6dc3eb4.  Total clients: 6
+2023-07-24 22:58:02,743 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: 3d6ca122-ff81-4382-b9c8-927a369dae49.  Total clients: 7
+2023-07-24 22:58:02,746 - ClientManager - INFO - Client: New client site-7@192.168.1.6 joined. Sent token: 324ca21c-4d8d-47e6-b3c8-c457e28cd7f8.  Total clients: 8
+2023-07-24 23:01:04,687 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 9554360e-7eee-4359-8dc6-2a9c8c57d043, get result: (scheduled).
+2023-07-24 23:01:04,687 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 9554360e-7eee-4359-8dc6-2a9c8c57d043 from the scheduler to run
+2023-07-24 23:01:04,691 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 9554360e-7eee-4359-8dc6-2a9c8c57d043
+2023-07-24 23:01:04,691 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-3,site-2,site-6,site-4,site-8,site-5,site-1,site-7 for run: 9554360e-7eee-4359-8dc6-2a9c8c57d043
+2023-07-24 23:01:04,803 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 9554360e-7eee-4359-8dc6-2a9c8c57d043 for clients: site-3,site-2,site-6,site-4,site-8,site-5,site-1,site-7
+2023-07-24 23:04:55,000 - ServerEngine - INFO - Job: 9554360e-7eee-4359-8dc6-2a9c8c57d043 child process exit with return code 120
+2023-07-24 23:04:55,606 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (9554360e-7eee-4359-8dc6-2a9c8c57d043) on clients.
+2023-07-24 23:13:49,520 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-07-24 23:13:49,530 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-07-24 23:13:49,530 - ConnectorManager - INFO - 4074: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-07-24 23:13:49,531 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:23262] is starting
+2023-07-24 23:13:50,031 - Cell - INFO - server: created backbone internal listener for tcp://localhost:23262
+2023-07-24 23:13:50,032 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-07-24 23:13:50,043 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-07-24 23:13:50,058 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-07-24 23:13:50,060 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-07-24 23:13:50,060 - root - INFO - Server started
+2023-07-24 23:13:58,068 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: c7297579-97b7-47ef-ba68-fb61736a2f44.  Total clients: 1
+2023-07-24 23:13:58,097 - ClientManager - INFO - Client: New client site-2@192.168.1.6 joined. Sent token: 0053240b-9b7c-4d31-93e9-6587188d1b22.  Total clients: 2
+2023-07-24 23:15:07,167 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job fe1d5a64-a1f8-4023-ab53-48c502b4edf9, get result: (scheduled).
+2023-07-24 23:15:07,168 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: fe1d5a64-a1f8-4023-ab53-48c502b4edf9 from the scheduler to run
+2023-07-24 23:15:07,172 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: fe1d5a64-a1f8-4023-ab53-48c502b4edf9
+2023-07-24 23:15:07,172 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2 for run: fe1d5a64-a1f8-4023-ab53-48c502b4edf9
+2023-07-24 23:15:07,260 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: fe1d5a64-a1f8-4023-ab53-48c502b4edf9 for clients: site-1,site-2
+2023-07-25 18:29:32,167 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-07-25 18:29:32,177 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-07-25 18:29:32,177 - ConnectorManager - INFO - 6785: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-07-25 18:29:32,177 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:18063] is starting
+2023-07-25 18:29:32,678 - Cell - INFO - server: created backbone internal listener for tcp://localhost:18063
+2023-07-25 18:29:32,679 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-07-25 18:29:32,690 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-07-25 18:29:32,704 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-07-25 18:29:32,707 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-07-25 18:29:32,707 - root - INFO - Server started
+2023-07-25 18:31:09,526 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: acf766eb-4ac7-47ce-949e-c63780447041.  Total clients: 1
+2023-08-05 14:35:00,096 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-05 14:35:00,106 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-05 14:35:00,106 - ConnectorManager - INFO - 7559: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-05 14:35:00,107 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:23158] is starting
+2023-08-05 14:35:00,608 - Cell - INFO - server: created backbone internal listener for tcp://localhost:23158
+2023-08-05 14:35:00,609 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-05 14:35:00,613 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-05 14:35:00,641 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-08-05 14:35:00,648 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-05 14:35:00,649 - root - INFO - Server started
+2023-08-05 14:36:34,518 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: 4c93a08a-1fe6-42fe-b383-3a7911caaa81.  Total clients: 1
+2023-08-05 14:37:56,126 - ClientManager - INFO - Client: New client site-2@192.168.1.6 joined. Sent token: 0046229d-9b77-47b9-aaf5-b9b8b15aad7d.  Total clients: 2
+2023-08-05 14:42:21,255 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 050cd5cd-3088-4973-abc0-5bbd3a0b28ef, get result: (scheduled).
+2023-08-05 14:42:21,256 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 050cd5cd-3088-4973-abc0-5bbd3a0b28ef from the scheduler to run
+2023-08-05 14:42:21,273 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 050cd5cd-3088-4973-abc0-5bbd3a0b28ef
+2023-08-05 14:42:21,273 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2 for run: 050cd5cd-3088-4973-abc0-5bbd3a0b28ef
+2023-08-05 14:42:21,353 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 050cd5cd-3088-4973-abc0-5bbd3a0b28ef for clients: site-1,site-2
+2023-08-05 14:42:27,982 - ServerEngine - INFO - Job: 050cd5cd-3088-4973-abc0-5bbd3a0b28ef child process exit with return code 255
+2023-08-05 14:42:28,092 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (050cd5cd-3088-4973-abc0-5bbd3a0b28ef) on clients.
+2023-08-05 15:18:39,898 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-05 15:18:39,909 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-05 15:18:39,909 - ConnectorManager - INFO - 4368: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-05 15:18:39,910 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:11554] is starting
+2023-08-05 15:18:40,411 - Cell - INFO - server: created backbone internal listener for tcp://localhost:11554
+2023-08-05 15:18:40,411 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-05 15:18:40,416 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-05 15:18:40,438 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-08-05 15:18:40,440 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-05 15:18:40,441 - root - INFO - Server started
+2023-08-05 15:19:07,702 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: 0a584107-9062-41cc-b901-b5aadd6d9190.  Total clients: 1
+2023-08-05 15:20:37,803 - ClientManager - INFO - Client: New client site-2@192.168.1.6 joined. Sent token: 0d7a24a5-fa9a-4c4f-85c5-5217d9358da0.  Total clients: 2
+2023-08-05 15:30:39,469 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 8e520f50-80d7-4481-af43-1b74a26f4e34, get result: (scheduled).
+2023-08-05 15:30:39,470 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 8e520f50-80d7-4481-af43-1b74a26f4e34 from the scheduler to run
+2023-08-05 15:30:39,475 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 8e520f50-80d7-4481-af43-1b74a26f4e34
+2023-08-05 15:30:39,476 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2 for run: 8e520f50-80d7-4481-af43-1b74a26f4e34
+2023-08-05 15:30:39,552 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 8e520f50-80d7-4481-af43-1b74a26f4e34 for clients: site-1,site-2
+2023-08-05 15:31:24,226 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (8e520f50-80d7-4481-af43-1b74a26f4e34) on clients.
+2023-08-05 15:31:58,756 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 5c82d779-490c-44ef-b3e4-420283a81407, get result: (scheduled).
+2023-08-05 15:31:58,757 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 5c82d779-490c-44ef-b3e4-420283a81407 from the scheduler to run
+2023-08-05 15:31:58,773 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 5c82d779-490c-44ef-b3e4-420283a81407
+2023-08-05 15:31:58,774 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2 for run: 5c82d779-490c-44ef-b3e4-420283a81407
+2023-08-05 15:31:58,842 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 5c82d779-490c-44ef-b3e4-420283a81407 for clients: site-1,site-2
+2023-08-05 15:32:43,325 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (5c82d779-490c-44ef-b3e4-420283a81407) on clients.
+2023-08-05 15:44:39,348 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 27890676-b2e8-429c-b692-3d160723d145, get result: (scheduled).
+2023-08-05 15:44:39,349 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 27890676-b2e8-429c-b692-3d160723d145 from the scheduler to run
+2023-08-05 15:44:39,352 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 27890676-b2e8-429c-b692-3d160723d145
+2023-08-05 15:44:39,352 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2 for run: 27890676-b2e8-429c-b692-3d160723d145
+2023-08-05 15:44:39,421 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 27890676-b2e8-429c-b692-3d160723d145 for clients: site-1,site-2
+2023-08-05 15:49:36,508 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-05 15:49:36,521 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-05 15:49:36,521 - ConnectorManager - INFO - 4326: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-05 15:49:36,522 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:38262] is starting
+2023-08-05 15:49:37,023 - Cell - INFO - server: created backbone internal listener for tcp://localhost:38262
+2023-08-05 15:49:37,024 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-05 15:49:37,028 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-05 15:49:37,057 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-08-05 15:49:37,064 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-05 15:49:37,064 - root - INFO - Server started
+2023-08-05 15:51:55,185 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: bffa368b-dbbe-41cb-ae54-aa6becbf9598.  Total clients: 1
+2023-08-05 15:51:59,402 - ClientManager - INFO - Client: New client site-2@192.168.1.6 joined. Sent token: 72a55a6b-3c86-4fe8-b08e-c63b4791a859.  Total clients: 2
+2023-08-05 15:53:48,415 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 1fa67933-092c-4f64-9b7a-6ad9105f7a93, get result: (scheduled).
+2023-08-05 15:53:48,415 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 1fa67933-092c-4f64-9b7a-6ad9105f7a93 from the scheduler to run
+2023-08-05 15:53:48,419 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 1fa67933-092c-4f64-9b7a-6ad9105f7a93
+2023-08-05 15:53:48,419 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2 for run: 1fa67933-092c-4f64-9b7a-6ad9105f7a93
+2023-08-05 15:53:48,499 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 1fa67933-092c-4f64-9b7a-6ad9105f7a93 for clients: site-1,site-2
+2023-08-05 15:57:01,450 - ServerEngine - INFO - Job: 1fa67933-092c-4f64-9b7a-6ad9105f7a93 child process exit with return code 120
+2023-08-05 15:57:02,307 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (1fa67933-092c-4f64-9b7a-6ad9105f7a93) on clients.
+2023-08-05 16:16:15,032 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-05 16:16:15,042 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-05 16:16:15,042 - ConnectorManager - INFO - 8105: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-05 16:16:15,043 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:3314] is starting
+2023-08-05 16:16:15,544 - Cell - INFO - server: created backbone internal listener for tcp://localhost:3314
+2023-08-05 16:16:15,545 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-05 16:16:15,558 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-05 16:16:15,573 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-08-05 16:16:15,576 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-05 16:16:15,576 - root - INFO - Server started
+2023-08-05 16:16:58,064 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: e04e7963-8aaa-4015-be00-43876a67451f.  Total clients: 1
+2023-08-05 16:18:15,367 - ClientManager - INFO - Client: New client site-2@192.168.1.6 joined. Sent token: 69de554b-382f-4ff3-aa2f-5cde86569622.  Total clients: 2
+2023-08-05 16:20:00,893 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 9f4dd388-caf6-45fc-b96c-925ee6903d7f, get result: (scheduled).
+2023-08-05 16:20:00,894 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 9f4dd388-caf6-45fc-b96c-925ee6903d7f from the scheduler to run
+2023-08-05 16:20:00,898 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 9f4dd388-caf6-45fc-b96c-925ee6903d7f
+2023-08-05 16:20:00,898 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2 for run: 9f4dd388-caf6-45fc-b96c-925ee6903d7f
+2023-08-05 16:20:00,980 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 9f4dd388-caf6-45fc-b96c-925ee6903d7f for clients: site-1,site-2
+2023-08-05 16:22:25,539 - ServerEngine - INFO - Job: 9f4dd388-caf6-45fc-b96c-925ee6903d7f child process exit with return code 120
+2023-08-05 16:22:25,614 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (9f4dd388-caf6-45fc-b96c-925ee6903d7f) on clients.
+2023-08-05 16:44:16,698 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-05 16:44:16,708 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-05 16:44:16,708 - ConnectorManager - INFO - 4501: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-05 16:44:16,709 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:23779] is starting
+2023-08-05 16:44:17,210 - Cell - INFO - server: created backbone internal listener for tcp://localhost:23779
+2023-08-05 16:44:17,211 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-05 16:44:17,216 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-05 16:44:17,226 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-08-05 16:44:17,243 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-05 16:44:17,243 - root - INFO - Server started
+2023-08-05 16:45:05,915 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: c57b2317-5d20-4486-a2e1-b3cda837d84c.  Total clients: 1
+2023-08-05 16:47:26,499 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 2c9d06c9-874b-4696-a88f-49518ce429e6, get result: (scheduled).
+2023-08-05 16:47:26,501 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 2c9d06c9-874b-4696-a88f-49518ce429e6 from the scheduler to run
+2023-08-05 16:47:26,505 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 2c9d06c9-874b-4696-a88f-49518ce429e6
+2023-08-05 16:47:26,505 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1 for run: 2c9d06c9-874b-4696-a88f-49518ce429e6
+2023-08-05 16:47:26,581 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 2c9d06c9-874b-4696-a88f-49518ce429e6 for clients: site-1
+2023-08-12 15:52:06,520 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-12 15:52:06,530 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-12 15:52:06,530 - ConnectorManager - INFO - 15246: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-12 15:52:06,531 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:53746] is starting
+2023-08-12 15:52:07,032 - Cell - INFO - server: created backbone internal listener for tcp://localhost:53746
+2023-08-12 15:52:07,033 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-12 15:52:07,038 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-12 15:52:07,061 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-08-12 15:52:07,064 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-12 15:52:07,064 - root - INFO - Server started
+2023-08-12 15:52:42,928 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: 00527834-94ac-45de-ab5b-8145db34a226.  Total clients: 1
+2023-08-12 15:53:02,483 - ClientManager - INFO - Client: New client site-2@192.168.1.6 joined. Sent token: 647737f7-cb97-4b41-88b8-84aa3488b0f3.  Total clients: 2
+2023-08-12 15:53:57,627 - ClientManager - INFO - Client: New client site-3@192.168.1.6 joined. Sent token: 2b172a98-bf0e-4af9-98d3-d4651d14217b.  Total clients: 3
+2023-08-12 16:01:22,847 - Cell - WARNING - [ME=server O=? D=site-3 F=? T=? CH=admin TP=admin] no connection to site-3
+2023-08-12 16:01:22,847 - Cell - ERROR - [ME=server O=? D=site-3 F=? T=? CH=admin TP=admin] cannot send to 'site-3': target_unreachable
+2023-08-12 16:04:41,036 - ClientManager - INFO - Client: New client site-4@192.168.1.6 joined. Sent token: b61824b5-0758-42c0-9860-1537f66bf145.  Total clients: 4
+2023-08-12 16:04:52,699 - ClientManager - INFO - Client Name:site-3 	Token: 2b172a98-bf0e-4af9-98d3-d4651d14217b left.  Total clients: 3
+2023-08-12 16:04:52,699 - FederatedServer - INFO - Remove the dead Client. Name: site-3	 Token: 2b172a98-bf0e-4af9-98d3-d4651d14217b.  Total clients: 3
+2023-08-12 16:05:03,818 - ClientManager - INFO - Client: New client site-5@192.168.1.6 joined. Sent token: 7c04ef9e-a94b-46e1-9524-8a6a117b2af8.  Total clients: 4
+2023-08-12 16:06:17,287 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 4d034f78-e530-45c6-b318-1d3f2f293fdf, get result: (scheduled).
+2023-08-12 16:06:17,287 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 4d034f78-e530-45c6-b318-1d3f2f293fdf from the scheduler to run
+2023-08-12 16:06:17,291 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 4d034f78-e530-45c6-b318-1d3f2f293fdf
+2023-08-12 16:06:17,291 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-4,site-5 for run: 4d034f78-e530-45c6-b318-1d3f2f293fdf
+2023-08-12 16:06:17,374 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 4d034f78-e530-45c6-b318-1d3f2f293fdf for clients: site-1,site-2,site-4,site-5
+2023-08-12 16:36:26,601 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 32e4d3a4-ee34-4a3b-a7d0-190b6d1afd67, get result: (scheduled).
+2023-08-12 16:36:26,601 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 32e4d3a4-ee34-4a3b-a7d0-190b6d1afd67 from the scheduler to run
+2023-08-12 16:36:26,607 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_stream_tb deployed to the server for job: 32e4d3a4-ee34-4a3b-a7d0-190b6d1afd67
+2023-08-12 16:36:26,607 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_stream_tb to be deployed to the clients: site-1,site-2,site-4,site-5 for run: 32e4d3a4-ee34-4a3b-a7d0-190b6d1afd67
+2023-08-12 16:36:26,699 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 32e4d3a4-ee34-4a3b-a7d0-190b6d1afd67 for clients: site-1,site-2,site-4,site-5
+2023-08-12 16:56:46,009 - ClientManager - INFO - Client: New client site-6@192.168.1.6 joined. Sent token: 33b9a26e-d770-46cc-8ca2-ead9b0ac5d00.  Total clients: 5
+2023-08-12 16:57:08,092 - ClientManager - INFO - Client: New client site-7@192.168.1.6 joined. Sent token: 48cd028d-d1af-4a49-b75d-8ca8a7e72492.  Total clients: 6
+2023-08-12 16:57:27,982 - ClientManager - INFO - Client: New client site-8@192.168.1.6 joined. Sent token: 58b187d7-81f4-403b-ad39-2d9062c4bb77.  Total clients: 7
+2023-08-12 16:57:45,172 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 3a54e229-13d6-4760-97ea-505dee56048e, get result: (scheduled).
+2023-08-12 16:57:45,172 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 3a54e229-13d6-4760-97ea-505dee56048e from the scheduler to run
+2023-08-12 16:57:45,176 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 3a54e229-13d6-4760-97ea-505dee56048e
+2023-08-12 16:57:45,176 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-4,site-5,site-6,site-7,site-8 for run: 3a54e229-13d6-4760-97ea-505dee56048e
+2023-08-12 16:57:45,293 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 3a54e229-13d6-4760-97ea-505dee56048e for clients: site-1,site-2,site-4,site-5,site-6,site-7,site-8
+2023-08-12 16:57:59,587 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (3a54e229-13d6-4760-97ea-505dee56048e) on clients.
+2023-08-12 16:58:56,549 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 44244f66-863d-46ff-916a-ae4bf82e6883, get result: (scheduled).
+2023-08-12 16:58:56,550 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 44244f66-863d-46ff-916a-ae4bf82e6883 from the scheduler to run
+2023-08-12 16:58:56,553 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 44244f66-863d-46ff-916a-ae4bf82e6883
+2023-08-12 16:58:56,554 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-4,site-5,site-6,site-7,site-8 for run: 44244f66-863d-46ff-916a-ae4bf82e6883
+2023-08-12 16:58:56,667 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 44244f66-863d-46ff-916a-ae4bf82e6883 for clients: site-1,site-2,site-4,site-5,site-6,site-7,site-8
+2023-08-12 16:59:11,708 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (44244f66-863d-46ff-916a-ae4bf82e6883) on clients.
+2023-08-12 16:59:46,898 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 9d7a45ba-e3df-4af1-b96b-d613e96fae8d, get result: (scheduled).
+2023-08-12 16:59:46,898 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 9d7a45ba-e3df-4af1-b96b-d613e96fae8d from the scheduler to run
+2023-08-12 16:59:46,903 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_stream_tb deployed to the server for job: 9d7a45ba-e3df-4af1-b96b-d613e96fae8d
+2023-08-12 16:59:46,903 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_stream_tb to be deployed to the clients: site-1,site-2,site-4,site-5,site-6,site-7,site-8 for run: 9d7a45ba-e3df-4af1-b96b-d613e96fae8d
+2023-08-12 16:59:47,021 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 9d7a45ba-e3df-4af1-b96b-d613e96fae8d for clients: site-1,site-2,site-4,site-5,site-6,site-7,site-8
+2023-08-12 17:00:01,779 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (9d7a45ba-e3df-4af1-b96b-d613e96fae8d) on clients.
+2023-08-12 17:03:24,150 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-12 17:03:24,161 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-12 17:03:24,161 - ConnectorManager - INFO - 4628: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-12 17:03:24,163 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:48875] is starting
+2023-08-12 17:03:24,664 - Cell - INFO - server: created backbone internal listener for tcp://localhost:48875
+2023-08-12 17:03:24,665 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-12 17:03:24,669 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-12 17:03:24,692 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-08-12 17:03:24,695 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-12 17:03:24,695 - root - INFO - Server started
+2023-08-12 17:03:55,449 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: 67e01070-5884-476d-bdaa-0629d5721255.  Total clients: 1
+2023-08-12 17:04:14,473 - ClientManager - INFO - Client: New client site-2@192.168.1.6 joined. Sent token: e239d346-5418-427b-8479-94710b065adf.  Total clients: 2
+2023-08-12 17:04:37,314 - ClientManager - INFO - Client: New client site-3@192.168.1.6 joined. Sent token: 6235722f-18d5-4e29-8097-401c1a5c264a.  Total clients: 3
+2023-08-12 17:04:47,658 - ClientManager - INFO - Client: New client site-4@192.168.1.6 joined. Sent token: d6bdff27-b2d1-4b4f-93e5-3475c9fdca97.  Total clients: 4
+2023-08-12 17:05:02,666 - ClientManager - INFO - Client: New client site-5@192.168.1.6 joined. Sent token: 1d705da1-3175-4cd0-80f0-a0e8dae6949b.  Total clients: 5
+2023-08-12 17:05:11,872 - ClientManager - INFO - Client: New client site-6@192.168.1.6 joined. Sent token: 177ae7e7-432e-473e-a8e3-f01c535ae99b.  Total clients: 6
+2023-08-12 17:05:56,913 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 5bcee9f9-b31c-4aac-b7b3-e442767f39f2, get result: (scheduled).
+2023-08-12 17:05:56,915 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 5bcee9f9-b31c-4aac-b7b3-e442767f39f2 from the scheduler to run
+2023-08-12 17:05:56,921 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 5bcee9f9-b31c-4aac-b7b3-e442767f39f2
+2023-08-12 17:05:56,921 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-3,site-4,site-5,site-6 for run: 5bcee9f9-b31c-4aac-b7b3-e442767f39f2
+2023-08-12 17:05:57,011 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 5bcee9f9-b31c-4aac-b7b3-e442767f39f2 for clients: site-1,site-2,site-3,site-4,site-5,site-6
+2023-08-12 17:06:24,869 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (5bcee9f9-b31c-4aac-b7b3-e442767f39f2) on clients.
+2023-08-12 17:07:51,266 - ClientManager - INFO - Client Name:site-6 	Token: 177ae7e7-432e-473e-a8e3-f01c535ae99b left.  Total clients: 5
+2023-08-12 17:07:52,126 - ClientManager - INFO - Re-activate the client:site-6 with token: 177ae7e7-432e-473e-a8e3-f01c535ae99b
+2023-08-12 17:08:18,351 - ClientManager - INFO - Client Name:site-5 	Token: 1d705da1-3175-4cd0-80f0-a0e8dae6949b left.  Total clients: 5
+2023-08-12 17:08:22,966 - ClientManager - INFO - Re-activate the client:site-5 with token: 1d705da1-3175-4cd0-80f0-a0e8dae6949b
+2023-08-12 17:09:36,556 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 054c9489-bf6c-447b-a6ed-e593dad509a1, get result: (scheduled).
+2023-08-12 17:09:36,558 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 054c9489-bf6c-447b-a6ed-e593dad509a1 from the scheduler to run
+2023-08-12 17:09:36,561 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_stream_tb deployed to the server for job: 054c9489-bf6c-447b-a6ed-e593dad509a1
+2023-08-12 17:09:36,561 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_stream_tb to be deployed to the clients: site-1,site-2,site-3,site-4,site-6,site-5 for run: 054c9489-bf6c-447b-a6ed-e593dad509a1
+2023-08-12 17:09:36,646 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 054c9489-bf6c-447b-a6ed-e593dad509a1 for clients: site-1,site-2,site-3,site-4,site-6,site-5
+2023-08-12 17:09:52,105 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (054c9489-bf6c-447b-a6ed-e593dad509a1) on clients.
+2023-08-12 17:14:03,544 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-12 17:14:03,555 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-12 17:14:03,555 - ConnectorManager - INFO - 3876: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-12 17:14:03,556 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:35875] is starting
+2023-08-12 17:14:04,057 - Cell - INFO - server: created backbone internal listener for tcp://localhost:35875
+2023-08-12 17:14:04,058 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-12 17:14:04,071 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-12 17:14:04,086 - FederatedServer - INFO - state changed from: ColdState to: HotState
+2023-08-12 17:14:04,089 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-12 17:14:04,089 - root - INFO - Server started
+2023-08-12 17:14:21,058 - ClientManager - INFO - Client: New client site-1@192.168.1.6 joined. Sent token: 95b27df0-3e94-45b2-beeb-99d4e358b149.  Total clients: 1
+2023-08-12 17:15:48,225 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job ccd0bf56-1e25-4a11-abd1-f6a559b8bffc, get result: (scheduled).
+2023-08-12 17:15:48,225 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: ccd0bf56-1e25-4a11-abd1-f6a559b8bffc from the scheduler to run
+2023-08-12 17:15:48,229 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: ccd0bf56-1e25-4a11-abd1-f6a559b8bffc
+2023-08-12 17:15:48,229 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1 for run: ccd0bf56-1e25-4a11-abd1-f6a559b8bffc
+2023-08-12 17:15:48,305 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: ccd0bf56-1e25-4a11-abd1-f6a559b8bffc for clients: site-1
+2023-08-12 17:26:38,984 - ClientManager - INFO - Client: New client site-2@192.168.1.6 joined. Sent token: 78a876dc-4b07-4ead-a1b7-bc86d3d9db31.  Total clients: 2
+2023-08-12 17:26:44,011 - ClientManager - INFO - Client: New client site-3@192.168.1.6 joined. Sent token: cea77170-9711-427a-8ea3-fd9e04232fd7.  Total clients: 3
+2023-08-12 17:26:58,557 - ClientManager - INFO - Client: New client site-4@192.168.1.6 joined. Sent token: ae69355c-0495-4367-b246-fe7903121661.  Total clients: 4
+2023-08-12 17:27:28,731 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job cc1f2d33-fb7b-4974-916c-6d912cbf080c, get result: (scheduled).
+2023-08-12 17:27:28,733 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: cc1f2d33-fb7b-4974-916c-6d912cbf080c from the scheduler to run
+2023-08-12 17:27:28,740 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: cc1f2d33-fb7b-4974-916c-6d912cbf080c
+2023-08-12 17:27:28,740 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-3,site-4 for run: cc1f2d33-fb7b-4974-916c-6d912cbf080c
+2023-08-12 17:27:28,834 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: cc1f2d33-fb7b-4974-916c-6d912cbf080c for clients: site-1,site-2,site-3,site-4
+2023-08-12 17:34:38,388 - ClientManager - INFO - Client: New client site-5@192.168.1.6 joined. Sent token: 52b9e4b2-3ce0-4c65-8d9b-a8a1b11704c0.  Total clients: 5
+2023-08-12 17:34:46,320 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 97f11103-9613-406f-abde-22bd187825b3, get result: (scheduled).
+2023-08-12 17:34:46,321 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 97f11103-9613-406f-abde-22bd187825b3 from the scheduler to run
+2023-08-12 17:34:46,329 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 97f11103-9613-406f-abde-22bd187825b3
+2023-08-12 17:34:46,329 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-3,site-4,site-5 for run: 97f11103-9613-406f-abde-22bd187825b3
+2023-08-12 17:34:46,437 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 97f11103-9613-406f-abde-22bd187825b3 for clients: site-1,site-2,site-3,site-4,site-5
+2023-08-12 17:35:01,117 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (97f11103-9613-406f-abde-22bd187825b3) on clients.
+2023-08-12 17:35:58,713 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224, get result: (scheduled).
+2023-08-12 17:35:58,713 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224 from the scheduler to run
+2023-08-12 17:35:58,717 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224
+2023-08-12 17:35:58,717 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-3,site-4,site-5 for run: f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224
+2023-08-12 17:35:58,816 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224 for clients: site-1,site-2,site-3,site-4,site-5
+2023-08-12 17:36:13,913 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (f5eba1bb-382e-4ce8-bf5f-9ec0b8a62224) on clients.
+2023-08-12 17:40:33,029 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job f52a966f-1730-4b8e-b9f6-698a365bb8fa, get result: (scheduled).
+2023-08-12 17:40:33,029 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: f52a966f-1730-4b8e-b9f6-698a365bb8fa from the scheduler to run
+2023-08-12 17:40:33,035 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: f52a966f-1730-4b8e-b9f6-698a365bb8fa
+2023-08-12 17:40:33,036 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-3,site-4,site-5 for run: f52a966f-1730-4b8e-b9f6-698a365bb8fa
+2023-08-12 17:40:33,140 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: f52a966f-1730-4b8e-b9f6-698a365bb8fa for clients: site-1,site-2,site-3,site-4,site-5
+2023-08-12 17:40:47,459 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (f52a966f-1730-4b8e-b9f6-698a365bb8fa) on clients.
+2023-08-12 17:42:55,800 - Cell - WARNING - [ME=server O=? D=site-5 F=? T=? CH=admin TP=admin] no connection to site-5
+2023-08-12 17:42:55,801 - Cell - ERROR - [ME=server O=? D=site-5 F=? T=? CH=admin TP=admin] cannot send to 'site-5': target_unreachable
+2023-08-12 17:43:07,208 - Cell - WARNING - [ME=server O=? D=site-5 F=? T=? CH=admin TP=admin] no connection to site-5
+2023-08-12 17:43:07,209 - Cell - ERROR - [ME=server O=? D=site-5 F=? T=? CH=admin TP=admin] cannot send to 'site-5': target_unreachable
+2023-08-12 17:43:35,356 - ClientManager - INFO - Client Name:site-5 	Token: 52b9e4b2-3ce0-4c65-8d9b-a8a1b11704c0 left.  Total clients: 4
+2023-08-12 17:44:10,336 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 374af32d-c9ba-4460-837d-61af5c2831ef, get result: (scheduled).
+2023-08-12 17:44:10,336 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 374af32d-c9ba-4460-837d-61af5c2831ef from the scheduler to run
+2023-08-12 17:44:10,340 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 374af32d-c9ba-4460-837d-61af5c2831ef
+2023-08-12 17:44:10,340 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-3,site-4 for run: 374af32d-c9ba-4460-837d-61af5c2831ef
+2023-08-12 17:44:10,433 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 374af32d-c9ba-4460-837d-61af5c2831ef for clients: site-1,site-2,site-3,site-4
