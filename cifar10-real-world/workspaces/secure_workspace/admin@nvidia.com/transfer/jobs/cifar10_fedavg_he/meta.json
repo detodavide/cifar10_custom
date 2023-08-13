@@ -39,5 +39,5 @@
             "@ALL"
         ]
     },
-    "min_clients": 4
+    "min_clients": 1
 }

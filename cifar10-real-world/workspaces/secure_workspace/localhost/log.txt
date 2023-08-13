@@ -288,3 +288,32 @@
 2023-08-12 17:44:10,340 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 374af32d-c9ba-4460-837d-61af5c2831ef
 2023-08-12 17:44:10,340 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1,site-2,site-3,site-4 for run: 374af32d-c9ba-4460-837d-61af5c2831ef
 2023-08-12 17:44:10,433 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 374af32d-c9ba-4460-837d-61af5c2831ef for clients: site-1,site-2,site-3,site-4
+2023-08-13 15:25:14,321 - Cell - INFO - server: creating listener on grpc://0:8102
+2023-08-13 15:25:14,329 - Cell - INFO - server: created backbone external listener for grpc://0:8102
+2023-08-13 15:25:14,330 - ConnectorManager - INFO - 5155: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2023-08-13 15:25:14,330 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:45881] is starting
+2023-08-13 15:25:14,831 - Cell - INFO - server: created backbone internal listener for tcp://localhost:45881
+2023-08-13 15:25:14,832 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2023-08-13 15:25:14,843 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2023-08-13 15:25:14,854 - FederatedServer - ERROR - exception in checking server state: AttributeError: 'NoneType' object has no attribute 'update_unfinished_jobs'
+2023-08-13 15:25:14,862 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2023-08-13 15:25:14,863 - root - INFO - Server started
+2023-08-13 15:25:20,860 - FederatedServer - INFO - state changed from: Cold2HotState to: HotState
+2023-08-13 15:26:00,456 - ClientManager - INFO - Client: New client site-1@127.0.0.1 joined. Sent token: e747b2a8-baa0-45cb-b4e8-237fdb8e3f20.  Total clients: 1
+2023-08-13 15:32:19,432 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job a18af4a7-4cfa-4e49-b19b-b9f2573ee45a, get result: (scheduled).
+2023-08-13 15:32:19,433 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: a18af4a7-4cfa-4e49-b19b-b9f2573ee45a from the scheduler to run
+2023-08-13 15:32:19,442 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: a18af4a7-4cfa-4e49-b19b-b9f2573ee45a
+2023-08-13 15:32:19,442 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1 for run: a18af4a7-4cfa-4e49-b19b-b9f2573ee45a
+2023-08-13 15:32:20,698 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: a18af4a7-4cfa-4e49-b19b-b9f2573ee45a for clients: site-1
+2023-08-13 15:35:16,462 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (a18af4a7-4cfa-4e49-b19b-b9f2573ee45a) on clients.
+2023-08-13 15:35:38,112 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 1de9a7c1-7d87-46ff-99ab-ba8538adf4ee, get result: (scheduled).
+2023-08-13 15:35:38,113 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 1de9a7c1-7d87-46ff-99ab-ba8538adf4ee from the scheduler to run
+2023-08-13 15:35:38,126 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_he deployed to the server for job: 1de9a7c1-7d87-46ff-99ab-ba8538adf4ee
+2023-08-13 15:35:38,127 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_he to be deployed to the clients: site-1 for run: 1de9a7c1-7d87-46ff-99ab-ba8538adf4ee
+2023-08-13 15:35:39,373 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 1de9a7c1-7d87-46ff-99ab-ba8538adf4ee for clients: site-1
+2023-08-13 15:36:44,737 - JobRunner - INFO - [identity=secure_project, run=?]: Try to abort run (1de9a7c1-7d87-46ff-99ab-ba8538adf4ee) on clients.
+2023-08-13 15:37:09,868 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 69f8f673-f0e6-4a64-a9bb-40ba32ace9ff, get result: (scheduled).
+2023-08-13 15:37:09,868 - JobRunner - INFO - [identity=secure_project, run=?]: Got the job: 69f8f673-f0e6-4a64-a9bb-40ba32ace9ff from the scheduler to run
+2023-08-13 15:37:09,874 - JobRunner - INFO - [identity=secure_project, run=?]: Application cifar10_fedavg_stream_tb deployed to the server for job: 69f8f673-f0e6-4a64-a9bb-40ba32ace9ff
+2023-08-13 15:37:09,874 - JobRunner - INFO - [identity=secure_project, run=?]: App cifar10_fedavg_stream_tb to be deployed to the clients: site-1 for run: 69f8f673-f0e6-4a64-a9bb-40ba32ace9ff
+2023-08-13 15:37:11,126 - JobRunner - INFO - [identity=secure_project, run=?]: Started run: 69f8f673-f0e6-4a64-a9bb-40ba32ace9ff for clients: site-1

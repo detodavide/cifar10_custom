@@ -1420,3 +1420,41 @@
 [E:2a0dbd46-155a-4e8c-884d-f64c4c0b3fc6][R:a470e302-bba7-4859-8940-4f69ce81a2dc][T:2023-08-12 17:50:43.123645][J:374af32d-c9ba-4460-837d-61af5c2831ef][A:validate#22f45488-0062-4f7f-9935-968b68688a46]received result from client 'site-1'
 [E:1288ff41-90d5-4c88-8a62-87caea991bb5][R:f6cb2266-c244-483a-a120-91f638e8c1bf][T:2023-08-12 17:50:43.451994][J:374af32d-c9ba-4460-837d-61af5c2831ef][A:validate#b9ffbf9b-78c0-4c65-b20d-0ed0d4b84579]received result from client 'site-3'
 [E:718670ef-de6b-4d10-8e2c-732d3a6a60a8][R:f2d8fbe5-1b5d-48aa-b6dd-af36300ba26c][T:2023-08-12 17:50:44.218346][J:374af32d-c9ba-4460-837d-61af5c2831ef][A:validate#169cdfdd-4755-4193-ba8c-7f4746c57bd3]received result from client 'site-4'
+[E:1763dd76-91b6-4b43-b2a4-af6acff1eb6b][T:2023-08-13 15:31:29.153545][U:?][A:_cert_login admin@nvidia.com]
+[E:d10ea1e1-ffe9-4640-9412-9824d13689a6][T:2023-08-13 15:31:42.982438][U:admin@nvidia.com][A:check_status client]
+[E:70258677-e0b9-45d5-9d29-f95a9a030841][T:2023-08-13 15:32:19.220297][U:admin@nvidia.com][A:job_mgmt.submit_job cifar10_fedavg_he UEsDBBQAAAAAAAl8DVe8Q3CMTwQAAE8EAAAiAAAAY2lmYXIxMF9mZWRhdmdfaG]
+[E:d50069de-22aa-48e7-b11f-b1bd995f545f][T:2023-08-13 15:34:11.924127][J:a18af4a7-4cfa-4e49-b19b-b9f2573ee45a][A:train#32bd00d3-231a-4c9a-9be4-e022e3a1d5b0]sent task to client "site-1"
+[E:b6a1cfcd-299c-4fd6-9629-99cbc5c9cac4][T:2023-08-13 15:35:37.288843][U:admin@nvidia.com][A:job_mgmt.submit_job cifar10_fedavg_he UEsDBBQAAAAAAHJ8DVfghi97TwQAAE8EAAAiAAAAY2lmYXIxMF9mZWRhdmdfaG]
+[E:802ee2dc-e8de-4a69-ad65-6fe2532914e5][T:2023-08-13 15:35:41.241480][U:admin@nvidia.com][A:check_status client]
+[E:4448f526-f80a-49c8-8a73-8abda8903a47][T:2023-08-13 15:35:44.051420][U:admin@nvidia.com][A:check_status client]
+[E:e2db2974-1e22-456a-b690-06bf735858d1][T:2023-08-13 15:35:44.086712][J:1de9a7c1-7d87-46ff-99ab-ba8538adf4ee][A:train#8dad38a7-e6df-4640-bfea-b1617f1f00c0]sent task to client "site-1"
+[E:31bd94d9-3ffb-46d7-88b4-48b62ac704b0][T:2023-08-13 15:36:50.941625][U:admin@nvidia.com][A:check_status client]
+[E:379d3621-ee5e-47ae-8bc2-e48662303670][T:2023-08-13 15:37:09.821214][U:admin@nvidia.com][A:job_mgmt.submit_job cifar10_fedavg_stream_tb UEsDBBQAAAAAAKR8DVdYNu1fVgQAAFYEAAApAAAAY2lmYXIxMF9mZWR]
+[E:9446845d-9aa3-4622-911a-819c7d2f471d][T:2023-08-13 15:37:19.290708][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#c7ca23ce-a6b5-4bfa-9e1b-ec05415cbf7b]sent task to client "site-1"
+[E:55a6d15d-5a7f-4e58-b476-8e121712f409][R:254e8435-882b-4b75-bbff-bcabeed83c71][T:2023-08-13 15:37:43.220952][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#c7ca23ce-a6b5-4bfa-9e1b-ec05415cbf7b]received result from client 'site-1'
+[E:2f4a55e3-a58e-49b9-8413-a18b3aa24f40][T:2023-08-13 15:37:45.244060][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#ba574bf3-0ec2-4f41-9a53-675ba75d3334]sent task to client "site-1"
+[E:46dcb91e-c902-46d0-8f21-98baee7b8646][R:6da2383e-8aa0-4b9e-b97a-9777b2994099][T:2023-08-13 15:38:04.344721][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#ba574bf3-0ec2-4f41-9a53-675ba75d3334]received result from client 'site-1'
+[E:441e662d-bfae-4732-92c4-956b8b54ebcd][T:2023-08-13 15:38:06.363238][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#91e6e2c8-86f3-4e6a-8ec2-dba221a96626]sent task to client "site-1"
+[E:e17c367d-f8cb-4885-91d1-5ade14af8f00][R:eb28b932-4bd7-40b9-a07e-2d2add78b1d0][T:2023-08-13 15:38:25.423307][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#91e6e2c8-86f3-4e6a-8ec2-dba221a96626]received result from client 'site-1'
+[E:851669c5-3928-4f81-82ac-410f038bcd9e][T:2023-08-13 15:38:27.443090][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#c1686a7a-a163-46b6-87a1-c33ceed73381]sent task to client "site-1"
+[E:e7f11227-ed93-4de8-be7b-f52c355b531f][R:8afa98f9-dbca-403e-aeaa-c01b6bffdab5][T:2023-08-13 15:38:46.533207][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#c1686a7a-a163-46b6-87a1-c33ceed73381]received result from client 'site-1'
+[E:a80e53e2-4640-4d61-ae76-9b087738408e][T:2023-08-13 15:38:48.547006][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#853abef8-35d7-41a6-a797-bbdb6fa10067]sent task to client "site-1"
+[E:32e97223-1789-4c2d-8996-df6d890f47b9][R:e926afc1-6565-4674-8ec5-2b8bc2cf3198][T:2023-08-13 15:39:07.726225][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#853abef8-35d7-41a6-a797-bbdb6fa10067]received result from client 'site-1'
+[E:5be1df69-a079-4c8d-b4f3-49f07ba1722c][T:2023-08-13 15:39:09.739956][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#6799ae13-3065-4eff-9a3c-fd50f0af57e5]sent task to client "site-1"
+[E:79e045cf-e852-47a6-b711-93bdfbb05470][R:bfc679b8-f089-4ae8-9189-9529fa1814ea][T:2023-08-13 15:39:29.014163][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#6799ae13-3065-4eff-9a3c-fd50f0af57e5]received result from client 'site-1'
+[E:39f10245-c4af-4860-b063-8c6824f61c11][T:2023-08-13 15:39:31.031786][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#ee6e80ba-afa8-424b-a06f-cd521ba77262]sent task to client "site-1"
+[E:ac208a6f-d512-4fcb-a277-9f6c2b2961e2][R:00cb8032-92ca-4006-9a22-9b0f3debf1ad][T:2023-08-13 15:39:50.146770][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#ee6e80ba-afa8-424b-a06f-cd521ba77262]received result from client 'site-1'
+[E:9a9fb84f-e3b0-4306-ba67-c8767ec76162][T:2023-08-13 15:39:52.161747][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#e8aab661-8072-4d97-b93c-c93089bcde4e]sent task to client "site-1"
+[E:ef9c3786-d41b-4eba-b343-dba4c6c985a3][R:c30787a8-0a61-4577-8494-dff5ac1133d4][T:2023-08-13 15:40:11.200122][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#e8aab661-8072-4d97-b93c-c93089bcde4e]received result from client 'site-1'
+[E:609138fc-84bc-4ebc-95a9-e8b626d431ce][T:2023-08-13 15:40:13.216697][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#6ea15490-7517-4cce-8bac-0ef270ef5d14]sent task to client "site-1"
+[E:5f3773dd-6b47-4211-baf0-2218b729f8be][R:547db9bd-813c-4a90-a62d-d2362eb9dc4b][T:2023-08-13 15:40:32.301084][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#6ea15490-7517-4cce-8bac-0ef270ef5d14]received result from client 'site-1'
+[E:e5e817ad-0baa-4c4c-95e7-41cf7a887657][T:2023-08-13 15:40:34.317532][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#a9a7ab2e-2fe3-4143-98cf-254e3934e0d1]sent task to client "site-1"
+[E:e91d69a2-461f-415c-a471-da4ff6142dff][R:51b3a6e5-ec4e-4ad7-9779-23c82d97ee59][T:2023-08-13 15:40:53.331579][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:train#a9a7ab2e-2fe3-4143-98cf-254e3934e0d1]received result from client 'site-1'
+[E:88ebf2c4-900e-40d9-a49a-6a007f2a4a42][T:2023-08-13 15:40:55.350276][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:submit_model#5409f88c-c7d2-4f13-aeb6-406957f5fd17]sent task to client "site-1"
+[E:538a3830-8272-4bc0-830a-43e2e28b934a][R:06384d30-b976-4f92-913c-bde9d9a045c8][T:2023-08-13 15:40:55.471422][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:submit_model#5409f88c-c7d2-4f13-aeb6-406957f5fd17]received result from client 'site-1'
+[E:182def23-4b85-48d0-ad6f-5bf314fad76d][T:2023-08-13 15:40:57.538394][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:validate#64ecb2e4-afc0-4b8d-8ebc-a15886906600]sent task to client "site-1"
+[E:46c40703-9dd5-4b31-952a-1c6defc86715][R:08d20d6d-97ba-4227-8393-0b186a8dbce7][T:2023-08-13 15:41:02.045049][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:validate#64ecb2e4-afc0-4b8d-8ebc-a15886906600]received result from client 'site-1'
+[E:862dec1c-1eca-451c-a1d4-1d76419188a1][T:2023-08-13 15:41:04.068938][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:validate#c2b8a8b8-bab9-4679-a3e4-6b64897de089]sent task to client "site-1"
+[E:6f4e3d44-8926-40c8-8c1f-d56a8e3e40bd][R:0af28da1-2a32-4200-8a59-e4e5e830e1e7][T:2023-08-13 15:41:08.613378][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:validate#c2b8a8b8-bab9-4679-a3e4-6b64897de089]received result from client 'site-1'
+[E:713487b9-6e9c-4ed1-ac11-a98385d2ec75][T:2023-08-13 15:41:10.672270][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:validate#c37acf2a-0194-45ba-ac09-da9d8cbc28fc]sent task to client "site-1"
+[E:ff9f9c97-047e-45ba-ad59-5e16465220d8][R:94929e6a-0299-4522-8ffe-a27517a5a431][T:2023-08-13 15:41:15.640400][J:69f8f673-f0e6-4a64-a9bb-40ba32ace9ff][A:validate#c37acf2a-0194-45ba-ac09-da9d8cbc28fc]received result from client 'site-1'
